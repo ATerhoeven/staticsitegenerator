@@ -1,7 +1,7 @@
-from textnode import TextNode
+from textnode import TextNode, TextType
 
 def main():
-    Dummy_Node = TextNode("dummy text", "LINK", "https://www.boot.dev")
+    Dummy_Node = TextNode("dummy text", TextType.LINK, "https://www.boot.dev")
     print(Dummy_Node)
 
     
